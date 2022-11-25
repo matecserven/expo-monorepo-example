@@ -1,6 +1,9 @@
 import { HomeIcon, HomeScreen } from '@acme/feature-home';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
+import TurndownService from 'turndown-rn';
+
+const trndwn = new TurndownService();
 
 export default function App() {
   return (
